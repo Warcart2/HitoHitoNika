@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="hito_hito_no_mi_nika"
+version="0.7.3"
+displayName="Hito Hito No Mi Model Nika"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Warcar"
+description='''Add's accurate version of gomu gomu no mi/hito hito no mi model: nika'''
+
+[[dependencies.hito_hito_no_mi_nika]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.hito_hito_no_mi_nika]]
+    modId="mine_mine_no_mi"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

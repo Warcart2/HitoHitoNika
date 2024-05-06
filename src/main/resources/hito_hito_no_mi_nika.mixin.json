@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "net.mcreator.mineminenomitest.mixins",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MorphHelperMixin",
+		"HaoshokuInfusionMixin",
+		"ContinuousAbilityMixin",
+		"BusoshokuHardeningMixin",
+		"BusoshokuEmissionMixin",
+		"BusoshokuDestructionMixin",
+		"BusoshokuFullBodyMixin"
+	],
+	"injectors": {
+    	"defaultRequire": 1
+  	},
+	"refmap": "mixins.hito_hito_no_mi_nika.refmap.json"
+}

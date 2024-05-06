@@ -1,0 +1,424 @@
+{
+  "mod_elements": [
+    {
+      "name": "FifthGearAbility",
+      "type": "code",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "fifth_gear_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/FifthGearAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuGomuNoMi",
+      "type": "code",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_gomu_no_mi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuGomuNoMi.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuPistol",
+      "type": "code",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuPistol.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGearThirdAbility",
+      "type": "code",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gear_third_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGearThirdAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGearSecondAbility",
+      "type": "code",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gear_second_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGearSecondAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGearFourthAbility",
+      "type": "code",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gear_fourth_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGearFourthAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuHelper",
+      "type": "code",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuHelper.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuGatling",
+      "type": "code",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_gatling",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuGatling.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuBazooka",
+      "type": "code",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_bazooka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuBazooka.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuRocket",
+      "type": "code",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuRocket.java"
+        ]
+      }
+    },
+    {
+      "name": "GearSixthAbility",
+      "type": "code",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gear_sixth_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GearSixthAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "BajrangGunProjectile",
+      "type": "code",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bajrang_gun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/BajrangGunProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "KingKongGunProjectile",
+      "type": "code",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "king_kong_gun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/KingKongGunProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "NikaProjectiles",
+      "type": "code",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nika_projectiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/NikaProjectiles.java"
+        ]
+      }
+    },
+    {
+      "name": "DawnPistolProjectile",
+      "type": "code",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dawn_pistol_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/DawnPistolProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "KingBajrangGunModel",
+      "type": "code",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "king_bajrang_gun_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/KingBajrangGunModel.java"
+        ]
+      }
+    },
+    {
+      "name": "KingBajrangGunProjectile",
+      "type": "code",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "king_bajrang_gun_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/KingBajrangGunProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "IMultiModelMorph",
+      "type": "code",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_multi_model_morph",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/IMultiModelMorph.java"
+        ]
+      }
+    },
+    {
+      "name": "GearSet",
+      "type": "code",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gear_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GearSet.java"
+        ]
+      }
+    },
+    {
+      "name": "JetCulverinProjectile",
+      "type": "code",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "jet_culverin_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/JetCulverinProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuRocketProjectile",
+      "type": "code",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_rocket_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuRocketProjectile.java"
+        ]
+      }
+    },
+    {
+      "name": "SnakemanMorphModel",
+      "type": "code",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "snakeman_morph_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/SnakemanMorphModel.java"
+        ]
+      }
+    },
+    {
+      "name": "StrongGomuPistol",
+      "type": "code",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "strong_gomu_pistol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/StrongGomuPistol.java"
+        ]
+      }
+    },
+    {
+      "name": "GomuMorphsAbility",
+      "type": "code",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gomu_morphs_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GomuMorphsAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "GomuFusenAbility",
+      "type": "code",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gomu_fusen_ability",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GomuFusenAbility.java"
+        ]
+      }
+    },
+    {
+      "name": "GomuFusenModel",
+      "type": "code",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gomu_fusen_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GomuFusenModel.java"
+        ]
+      }
+    },
+    {
+      "name": "GomuGigantFusenModel",
+      "type": "code",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "gomu_gigant_fusen_model",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/GomuGigantFusenModel.java"
+        ]
+      }
+    },
+    {
+      "name": "TrueGomuPassiveEffects",
+      "type": "code",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "true_gomu_passive_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mineminenomitest/TrueGomuPassiveEffects.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "ability.mineminenomi.gear_fifth": "Gear Fifth",
+      "ability.mineminenomi.true_gear_second.description.0": "By speding up their blood flow, the user gains strength, speed and mobility",
+      "ability.mineminenomi.gomu_fusen": "Gomu Gomu no Fusen",
+      "ability.mineminenomi.gear_fifth.description.0": "Awakening ability, that makes you insanely powerful",
+      "ability.mineminenomi.true_gear_fourth": "Gear Fourth",
+      "ability.mineminenomi.true_gomu_gomu_no_gatling.description.0": "Rapidly punches enemies using rubber fists",
+      "ability.mineminenomi.true_gomu_gomu_no_bazooka": "Gomu Gomu no Bazooka",
+      "ability.mineminenomi.true_gomu_gomu_no_pistol": "Gomu Gomu no Pistol",
+      "ability.mineminenomi.true_gomu_gomu_no_pistol.description.0": "The user stretches their arm to hit the opponent",
+      "ability.mineminenomi.true_gomu_gomu_no_rocket.description.0": "Stretches towards a block, then launches the user on an arch depending on where they fist landed",
+      "ability.mineminenomi.true_gear_third": "Gear Third",
+      "ability.mineminenomi.strong_gomu_gomu_no_pistol.description.0": "Almost same as simple pistol... until You get Haki",
+      "ability.mineminenomi.strong_gomu_gomu_no_pistol": "Gomu Gomu no Strong Pistol",
+      "text.mineminenomi.too_weak": "You are to weak to use this ability",
+      "text.mineminenomi.too_heavy": "You are to heavy to use this ability",
+      "ability.mineminenomi.true_gear_fourth.description.0": "The user inflates their muscle structure to tremendously increase the power of their attacks and also allows flight  §2Uses Haki§r",
+      "ability.mineminenomi.gear_sixth": "Gomu Gomu no Strange Pistol",
+      "ability.mineminenomi.true_gomu_gomu_no_gatling": "Gomu Gomu no Gatling",
+      "ability.mineminenomi.true_gear_second": "Gear Second",
+      "ability.mineminenomi.gomu_fusen.description.0": "By inhaling a lot of air user inflates their chest to gain invunerability to canon balls",
+      "ability.mineminenomi.true_gear_third.description.0": "By blowing air and inflating their bones, the user\u0027s attacks get bigger and gain incredible strength",
+      "ability.mineminenomi.true_gomu_gomu_no_rocket": "Gomu Gomu no Rocket",
+      "ability.mineminenomi.true_gomu_gomu_no_bazooka.description.0": "Hits the enemy with both hands to launch them away",
+      "item.mineminenomi.hito_hito_no_mi_model_nika": "Hito Hito no Mi, Model: Nika"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hito_hito_no_mi_nika",
+    "modName": "Hito Hito No Mi Model Nika",
+    "version": "0.7.3",
+    "description": "Add\u0027s accurate version of gomu gomu no mi/hito hito no mi model: nika",
+    "author": "Warcar",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mine_mine_no_mi"
+    ],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mineminenomitest",
+    "lockBaseModFiles": true
+  },
+  "mcreatorVersion": 202300110610
+}

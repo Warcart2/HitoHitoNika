@@ -1,0 +1,81 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+        maven { url = 'https://repo.spongepowered.org/repository/maven-public/' }
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'org.spongepowered', name: 'mixingradle', version: '0.7-SNAPSHOT'
+    }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+apply plugin: 'org.spongepowered.mixin'
+
+version = '1.0'
+group = 'com.yourname.modid'
+archivesBaseName = 'modid'
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+minecraft {
+    mappings channel: 'snapshot', version: '20201028-1.16.3'
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            arg "-mixin.config=hito_hito_no_mi_nika.mixin.json"
+
+            jvmArgs = [
+                    "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
+                    "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
+            ]
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            arg "-mixin.config=hito_hito_no_mi_nika.mixin.json"
+
+            jvmArgs = [
+                    "--add-exports=java.base/sun.security.util=ALL-UNNAMED",
+                    "--add-opens=java.base/java.util.jar=ALL-UNNAMED"
+            ]
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'mixins.hito_hito_no_mi_nika.refmap.json'
+    config 'hito_hito_no_mi_nika.mixin.json'
+    
+    debug.verbose = true
+    debug.export = true
+    dumpTargetOnFailure = true
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+apply from: 'mcreator.gradle'
+
